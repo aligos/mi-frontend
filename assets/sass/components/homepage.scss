@@ -1,0 +1,33 @@
+// style for the landing page
+.index-page{
+    .page-header{
+        height: 100vh;
+
+        .container{
+            > .content-center{
+                top: 37%;
+            }
+        }
+
+        .category-absolute{
+            position: absolute;
+            top: 100vh;
+            margin-top: -60px;
+            padding: 0 15px;
+            width: 100%;
+            color: rgba(255,255,255,.5);
+        }
+    }
+    .section-widget{
+        .category-list{
+            padding: 0;
+            .category-item{
+                list-style: none;
+                a {
+                    font-style: italic;
+                    color: $light-black;
+                }
+            }
+        }
+    }
+}

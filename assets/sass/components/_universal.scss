@@ -1,0 +1,37 @@
+/*color*/
+.white {
+	color: $white-color;
+	&:hover {
+		color: $primary-color;
+	}
+}
+/*font*/
+.f-lg {
+	font-size: $btn-icon-size;
+}
+
+.f-regular {
+	font-size: $btn-icon-size-small;
+}
+
+.f-medium {
+	font-size: 24px;
+}
+
+.center {
+	text-align: center;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.no-margin {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}

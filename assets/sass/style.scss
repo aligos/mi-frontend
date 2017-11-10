@@ -1,0 +1,46 @@
+/*
+Massive Infinity FrontEnd
+Rahmat
+*/
+
+
+@import 'components/variables';
+@import 'components/mixins';
+
+// Plugins CSS
+// @import "components/plugins/plugin-bootstrap-switch";
+// @import "components/plugins/plugin-nouislider";
+// @import "components/plugins/plugin-datepicker";
+
+// Core CSS
+@import "components/buttons";
+// @import "components/inputs";
+// @import "components/checkboxes-radio";
+// @import "components/progress";
+// @import "components/badges";
+// @import "components/pagination";
+@import "components/typography";
+@import "components/misc";
+// @import "components/pills";
+@import "components/universal";
+
+// components
+// @import "components/social-buttons";
+// @import "components/tabs";
+@import "components/navbar";
+@import "components/dropdown";
+// @import "components/alerts";
+@import "components/images";
+// @import "components/popups";
+@import "components/nucleo-outline";
+// @import "components/modals";
+@import "components/carousel";
+// @import "components/cards";
+@import "components/footers";
+
+// homepage and sections
+@import "components/homepage";
+@import "components/sections";
+
+
+@import "components/responsive";
